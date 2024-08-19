@@ -7,17 +7,26 @@
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   background-color: lightgray;
+  @media only screen and (max-width: 700px) {
+    display: block;
+  }
 }
 
 .leftContainer {
   width: 50%;
   display: flex;
   justify-content: center;
+  @media only screen and (max-width: 700px) {
+    width: 100%;
+  }
 }
 .rigthContainer {
   width: 50%;
   display: flex;
   justify-content: center;
+  @media only screen and (max-width: 700px) {
+    width: 100%;
+  }
 }
 
 .mainFont {
@@ -38,21 +47,26 @@
   }
 }
 
-.buyButton {
+.contract {
   background-image: linear-gradient(to right, red, darkred);
   color: white;
-  width: 200px;
+  width: 100%;
   height: 50px;
+  margin-right: 50px;
   border-radius: 20px;
   font-family: "Mochiy Pop P One";
   border-color: lightgray;
+  text-align: center;
+
   @media only screen and (max-width: 700px) {
-    width: 150px;
+    margin-right: 0px;
   }
 }
-.buyButton:hover {
-  background-image: linear-gradient(to right, red, red);
-  cursor: pointer;
-  color: white;
-  border-color: white;
+.contractText {
+  width: 100%;
+  font-size: 14px;
+  text-wrap: wrap;
+  @media only screen and (max-width: 700px) {
+    font-size: 8px;
+  }
 }

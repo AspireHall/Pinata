@@ -10,7 +10,13 @@ const Navbar = () => {
           <h1 className={classes.mainFont}>Piñata</h1>
         </div>
         <div className={classes.rigthContainer}>
-          <button className={classes.buyButton}>Coming Soon</button>
+          <div className={classes.contract}>
+            <h className={classes.contractText}>
+              Contract Address
+              <br />
+              0xd707e187dFe1c3c5311D0Acb2D631332B4Bd3dEF
+            </h>
+          </div>
         </div>
       </div>
     </>
