@@ -28,15 +28,25 @@
   color: red;
   -webkit-text-stroke: 0.5px white;
   text-align: center;
+  @media only screen and (max-width: 700px) {
+    font-size: 40px;
+  }
 }
 
 .text {
   font-size: 30px;
   color: white;
+  @media only screen and (max-width: 700px) {
+    font-size: 16px;
+  }
 }
 
 .circle {
   width: 75px;
   height: 75px;
   margin-right: 25px;
+  @media only screen and (max-width: 700px) {
+    width: 50px;
+    height: 50px;
+  }
 }

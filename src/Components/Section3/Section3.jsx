@@ -26,7 +26,7 @@ const Section3 = () => {
             Say “NO” to Trillion Token Supply memecoins
             <br></br>
             <br></br>
-            96% Release to Market: 3% Treasury : 1% Funding
+            98% Release to Market: 1% Treasury : 1% Developer
           </h2>
         </div>
       </div>

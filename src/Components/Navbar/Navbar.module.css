@@ -24,11 +24,18 @@
   font-size: 40px;
   font-family: "Mochiy Pop P One";
   color: red;
+  @media only screen and (max-width: 700px) {
+    font-size: 32px;
+  }
 }
 
 .logo {
   height: 100px;
   width: 100px;
+  @media only screen and (max-width: 700px) {
+    height: 65px;
+    width: 65px;
+  }
 }
 
 .buyButton {
@@ -39,6 +46,9 @@
   border-radius: 20px;
   font-family: "Mochiy Pop P One";
   border-color: lightgray;
+  @media only screen and (max-width: 700px) {
+    width: 150px;
+  }
 }
 .buyButton:hover {
   background-image: linear-gradient(to right, red, red);
