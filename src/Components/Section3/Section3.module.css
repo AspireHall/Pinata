@@ -1,0 +1,56 @@
+.section3Container {
+  width: 99.5%;
+  height: 700px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border-color: red;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 5px;
+  margin-top: 5px;
+  background-image: linear-gradient(to right, rgb(98, 97, 97), rgb(3, 3, 3));
+}
+
+.topContainer {
+  height: 10%;
+  display: flex;
+}
+.topLeftContainer {
+  width: 60%;
+}
+.topRightContainer {
+  width: 40%;
+}
+
+.bottomContainer {
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bodyContainer {
+  width: 80%;
+}
+.bodyFont {
+  font-size: 70px;
+  font-family: "Mochiy Pop P One";
+  color: red;
+  -webkit-text-stroke: 0.5px white;
+}
+
+.text {
+  font-size: 40px;
+  color: white;
+}
+.bodyText {
+  font-size: 30px;
+  color: white;
+}
+
+.chickenImage {
+  width: 400px;
+  height: 400px;
+  margin-top: -125px;
+}

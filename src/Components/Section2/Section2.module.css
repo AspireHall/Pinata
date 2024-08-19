@@ -1,0 +1,76 @@
+.section2Container {
+  width: 99.5%;
+  height: 700px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border-color: red;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 5px;
+  margin-top: 5px;
+  background-image: linear-gradient(to right, rgb(98, 97, 97), rgb(3, 3, 3));
+}
+
+.topSectionContainer {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  margin-top: 25px;
+}
+
+.bottomSectionContainer {
+  width: 100%;
+  height: 85%;
+  display: block;
+}
+
+.bodyFont {
+  font-size: 70px;
+  font-family: "Mochiy Pop P One";
+  color: red;
+  -webkit-text-stroke: 0.5px white;
+}
+
+.text {
+  font-size: 30px;
+  color: white;
+}
+
+.circleTop {
+  width: 75px;
+  height: 75px;
+}
+
+.circleBottom {
+  width: 75px;
+  height: 75px;
+  margin-top: 50px;
+}
+
+.circleContainer {
+  width: 11%;
+  margin-left: 50px;
+}
+
+.headingContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutContainer {
+  width: 80%;
+}
+
+.bodyContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textContainer {
+  width: 80%;
+}
