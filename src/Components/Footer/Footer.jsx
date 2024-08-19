@@ -21,7 +21,7 @@ const Footer = () => {
       </div>
       <div className={classes.bottomContainer}>
         <h4 className={classes.smallText}>
-          $Pina is a meme coin, and there is no expectation of intrinsic value.
+          Piñata is a meme coin, and there is no expectation of intrinsic value.
           There is no formal team but a solo creator who loves pinatas.
           <br></br>The coin was created to share the joy of Pinatas to the
           digital world and bring happiness to a world full of useless

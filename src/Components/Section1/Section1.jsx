@@ -18,7 +18,7 @@ const Section1 = () => {
           <img className={classes.circleleft} src={greenCircle} />
         </div>
         <div className={classes.middleSectionContainer}>
-          <h1 className={classes.bodyFont}>$Piña</h1>
+          <h1 className={classes.bodyFont}>Pina</h1>
           <h2 className={classes.text}>
             The Piñata memecoin is here to spread its joy to everyone. When you
             break a Piñata, all the goods come rushing out and everyone has a
